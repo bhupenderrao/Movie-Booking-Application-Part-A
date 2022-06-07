@@ -4,21 +4,20 @@
     padding: 8px;
     text-align: center;
     font-size: 1rem;
-  }
-  .flex-container {
+}
+.flex-container {
     display: flex;
-  }
-  .left {
+}
+.left {
     width: 76%;
     margin: 16px;
-  }
-  .right {
-    /* background-color: #ff9999; */
+}
+.right {
     width: 24%;
     margin: 16px;
-  }
-  
-  .leftListItem {
+}
+
+.leftListItem {
     margin: 20px;
     cursor: pointer;
-  }
+}

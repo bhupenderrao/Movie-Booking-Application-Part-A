@@ -2,9 +2,10 @@ import React from "react";
 import './Home.css'
 import "../../common/header/Header"
 import Header from "../../common/header/Header.js";
-import UpComingMoviesGrid from "./UpComingMoviesGrid";
-import moviesData from "../../common/moviesData";
-import ReleasedMoviesGrid from './ReleasedMoviesGrid'
+import UpComingMoviesGrid from "./homeComponents/UpComingMoviesGrid";
+import moviesData from "../../assets/moviesData";
+import ReleasedMoviesGrid from './homeComponents/ReleasedMoviesGrid'
+import FormCard from "./homeComponents/FormCard";
 
 class Home extends React.Component {
 
@@ -26,7 +27,9 @@ class Home extends React.Component {
                     <div className="left">
                         <ReleasedMoviesGrid moviesData={this.state.data} />
                     </div>
-                    <div className="right"></div>
+                    <div className="right">
+                        <FormCard />
+                    </div>
                 </div>
 
             </div>
