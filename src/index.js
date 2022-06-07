@@ -1,11 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import Controller from './screens/Controller';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
-      <Controller />
-  </React.StrictMode>
+    <Controller />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
